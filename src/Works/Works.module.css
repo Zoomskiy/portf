@@ -1,0 +1,16 @@
+.worksBlock {
+    min-height: 100vh;
+    background-color: #d8ffff;
+}
+.worksContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+}
+.works {
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
