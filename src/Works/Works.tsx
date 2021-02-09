@@ -39,7 +39,9 @@ const Works = () => {
     return (
         <div className={w.worksBlock}>
             <div className={`${styleContainer.container} ${w.worksContainer}`}>
-                <h2 className={w.title}>My works</h2>
+                <div className={w.title}>
+                    <h2>My works</h2>
+                </div>
                 <div className={w.works}>
                     {data.map((el: dataType) => <Work title={el.workTitle} description={el.workDescription}
                                                       iconPath={el.imageWork} urls={el.urls}/>)}

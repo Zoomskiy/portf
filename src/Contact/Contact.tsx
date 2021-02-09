@@ -9,13 +9,12 @@ const Contact = () => {
             <div className={`${style.container} ${c.contactContainer}`}>
                 <h2>Контакты</h2>
                 <form className={c.contacts}>
-                    <div className={c.formInputs}>
-                        <input placeholder={"Имя"} type="text"/>
-                        <input placeholder={"E-mail"} type="text"/>
-                        <textarea placeholder={"Ваше сообщение"}/>
-                    </div>
+                    <input placeholder={"Имя"} type="text"/>
+                    <input placeholder={"E-mail"} type="text"/>
+                    <textarea placeholder={"Ваше сообщение"}/>
+                    <button type={"submit"} className={c.submitButton}>Отправить</button>
                 </form>
-                <button>Отправить</button>
+
             </div>
         </div>
     );

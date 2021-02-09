@@ -13,7 +13,7 @@ const Work = (props: workPropsType) => {
     return (
         <div className={w.work}>
             <div className={w.icon}>
-                <a href={"#"}><button>View</button></a>
+                <a className={w.viewButton} href={"#"}>View</a>
             </div>
             <div className={w.description}>
                 <a href={props.urls} target="_blank">
